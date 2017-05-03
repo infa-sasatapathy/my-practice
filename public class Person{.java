@@ -1,10 +1,12 @@
 public class Person{
 	private String firstName;
 	private String lastName;
+	private int age;
 
 	public Person(String firstName, String lastName) {
 	this.firstName = firstName;
 	this.last Name = lastName;
+	this.age=age;
 	}
 	public void setFirstName(String firstName)  throws
 		IllegalArgumentException {
